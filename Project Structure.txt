@@ -1,0 +1,27 @@
+ludo-platform/
+├── frontend/                     # Next.js + React Frontend
+│   ├── app/                      # Next.js App Router
+│   ├── components/               # Reusable React Components
+│   ├── hooks/                    # Custom React Hooks
+│   ├── lib/                      # Utility Libraries
+│   ├── stores/                   # Zustand State Management
+│   ├── styles/                   # Tailwind CSS & Global Styles
+│   ├── types/                    # TypeScript Types
+│   └── public/                   # Static Assets
+│
+├── backend/                      # NestJS Backend
+│   ├── src/
+│   │   ├── modules/              # Feature Modules
+│   │   ├── common/               # Common Utilities
+│   │   ├── config/               # Configuration
+│   │   ├── database/             # Database Setup
+│   │   ├── guards/               # Auth Guards
+│   │   ├── interceptors/         # Interceptors
+│   │   ├── middleware/           # Middleware
+│   │   └── main.ts               # Entry Point
+│   └── prisma/                   # Prisma ORM
+│
+├── docker/                       # Docker Configuration
+├── k8s/                          # Kubernetes Manifests
+├── docs/                         # Documentation
+└── scripts/                      # Utility Scripts
